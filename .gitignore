@@ -44,3 +44,11 @@ Debug
 Release
 .sdf
 .suo
+
+# Buckaroo #
+############
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS
