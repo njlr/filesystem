@@ -1,7 +1,7 @@
 include_defs('//BUCKAROO_DEPS')
 
 cxx_library(
-  name = 'boost-filesystem',
+  name = 'filesystem',
   header_namespace = 'boost',
   exported_headers = subdir_glob([
     ('include/boost', '**/*.hpp'),
